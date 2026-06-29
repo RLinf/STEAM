@@ -51,7 +51,7 @@ em{font-style:italic;color:inherit}
 .eyebrow.light{color:#ffb98a}
 .section-title{
   font-family:var(--font-display);font-weight:600;letter-spacing:-.015em;
-  font-size:clamp(28px,4.4vw,46px);line-height:1.08;margin:0 0 22px;max-width:18ch;
+  font-size:clamp(28px,4.4vw,46px);line-height:1.08;margin:0 0 22px;
 }
 .section-title .hl{color:var(--ember)}
 .lede{font-size:clamp(17px,1.6vw,20px);color:var(--ink-soft);max-width:none;margin:0 0 40px}
