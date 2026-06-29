@@ -318,7 +318,7 @@ figcaption{font-size:14px;color:var(--muted-text);margin-top:16px;max-width:68ch
 /* ============================================================
    PAPER / ABSTRACT / BIBTEX
    ============================================================ */
-.abstract{font-size:18px;line-height:1.72;color:var(--ink-soft);margin:0 0 44px}
+.abstract{font-size:clamp(19px,1.5vw,22px);line-height:1.75;color:var(--ink-soft);margin:0 0 44px}
 .abstract strong{color:var(--ink)}
 .bibtex{background:#fff;border:1px solid var(--rule);border-radius:14px;overflow:hidden}
 .bibtex-head{display:flex;justify-content:space-between;align-items:center;padding:13px 18px;border-bottom:1px solid var(--rule);background:var(--bg-tint)}
