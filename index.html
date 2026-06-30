@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous" />
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/css/style.css?v=38" />
+<link rel="stylesheet" href="assets/css/style.css?v=39" />
 </head>
 <body>
 
@@ -344,7 +344,7 @@
 <!-- ============================ PAPER / ABSTRACT / BIBTEX ============================ -->
 <section class="section section-tint" id="paper">
   <div class="wrap narrow">
-    <h2 class="section-title">Abstract</h2>
+    <h2 class="section-title">Conclusion</h2>
     <p class="abstract">
       Real-world robot learning increasingly relies on heterogeneous data, but demonstrations and rollouts often mix useful progress with stalls, corrections, and suboptimal behavior. Effective policy learning therefore requires frame-level advantages that distinguish reliable local progress from failures and regressions. We propose <strong>Self-supervised Temporal Ensemble Advantage Modeling (STEAM)</strong>, a label-free method that learns such advantages from expert demonstrations. STEAM trains an ensemble of temporal-offset predictors on frame pairs within expert trajectories, using the normalized temporal offset between two frames as a self-supervised signal. Each predictor maps a frame pair to a distribution over temporal offsets, which is converted into a scalar advantage. STEAM then takes the minimum advantage across the ensemble to score mixed-quality rollout data conservatively. Across real-world bimanual towel folding, chip checkout, cola restocking, and single-arm pick-and-place tasks, STEAM identifies stalls, failures, and recoveries. When combined with CFGRL, STEAM further improves policy success rate by 59%, 54.3%, 23% and 16.2% over baselines, respectively.
     </p>
@@ -394,6 +394,6 @@
 
 <button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
 
-<script src="assets/js/main.js?v=38"></script>
+<script src="assets/js/main.js?v=39"></script>
 </body>
 </html>
