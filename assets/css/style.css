@@ -326,7 +326,7 @@ figcaption{font-size:14px;color:var(--muted-text);margin-top:16px;max-width:68ch
 .copy-btn{font-family:var(--font-body);font-weight:600;font-size:13px;border:1px solid var(--rule-strong);background:#fff;color:var(--ink-soft);border-radius:8px;padding:7px 14px;cursor:pointer;transition:.2s}
 .copy-btn:hover{border-color:var(--ember);color:var(--ember)}
 .copy-btn.copied{background:var(--ember);color:#fff;border-color:var(--ember)}
-.bibtex pre{margin:0;padding:20px 18px;font-family:var(--font-mono);font-size:13px;line-height:1.65;color:var(--ink);overflow-x:auto}
+.bibtex pre{margin:0;padding:20px 18px;font-family:var(--font-mono);font-size:13px;line-height:1.65;color:var(--ink);white-space:pre-wrap;overflow-wrap:break-word}
 
 /* ============================================================
    FOOTER + LIGHTBOX + TO-TOP
